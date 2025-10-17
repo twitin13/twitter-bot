@@ -12,13 +12,15 @@ const client = new TwitterApi({
 (async () => {
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
-    const textTweet = "Dari Pada Blonde Creamy Latte DISKON jadi 2K an aja bisa pick up ✨
+    const textTweet = `
+Dari Pada Blonde Creamy Latte DISKON jadi 2K-an aja bisa pick up ✨
 
-‼️ Klaim voucher nya disini sebelum habis 👇👇
+‼️ Klaim voucher-nya di sini sebelum habis 👇👇
 https://spf.shopee.co.id/BKrYkdVOG
 https://spf.shopee.co.id/BKrYkdVOG
 
-t. daget gofood grabfood kode promo go grab shopee food sfood gojek kopi";
+t. daget gofood grabfood kode promo go grab shopee food sfood gojek kopi
+`;
 
     // 📸 Upload 1 gambar dari repo
     const mediaId = await client.v1.uploadMedia('1.jpg');
@@ -34,3 +36,4 @@ t. daget gofood grabfood kode promo go grab shopee food sfood gojek kopi";
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
