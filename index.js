@@ -47,3 +47,8 @@ cron.schedule('0 */2 * * *', () => {
 
 // Jalankan 1x saat bot baru mulai
 postTweet();
+
+import express from 'express';
+const app = express();
+app.get('/', (req, res) => res.send('Bot is running!'));
+app.listen(10000, () => console.log('Server aktif di port 10000'));
