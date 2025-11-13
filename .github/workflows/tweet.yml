@@ -2,7 +2,7 @@ name: Twitter Bot Auto Post
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # Jalan tiap 2 jam
+    - cron: "0 */1 * * *"  # Jalan tiap 1 jam
   workflow_dispatch:        # Bisa juga dijalankan manual
 
 jobs:
