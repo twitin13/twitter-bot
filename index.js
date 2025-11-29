@@ -19,7 +19,7 @@ Dari Pada Blonde Creamy Latte DISKON jadi 2K-an aja bisa pick up ✨
 https://spf.shopee.co.id/BKrYkdVOG
 https://spf.shopee.co.id/BKrYkdVOG
 
-t. daget gofood grabfood kode promo go grab shopee food thr sfood gojek kopi
+t. daget gofood grabfood kode promo go grab shopee food thr sfood gojek kopi gary iskak raisa
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -36,6 +36,7 @@ t. daget gofood grabfood kode promo go grab shopee food thr sfood gojek kopi
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
 
